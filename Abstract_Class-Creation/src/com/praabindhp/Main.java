@@ -11,7 +11,7 @@ class Rectangle extends Shape
     public void print_area()
     {
         area_rect=a*b;
-        System.out.println("The Area of Rectangle is:"+area_rect);
+        System.out.println("The Area Of Rectangle Is:"+area_rect);
     }
 }
 class Triangle extends Shape
@@ -21,7 +21,7 @@ class Triangle extends Shape
     public void print_area()
     {
         area_tri= (int) (0.5*a*b);
-        System.out.println("The Area of Triangle is:"+area_tri);
+        System.out.println("The Area Of Triangle Is:"+area_tri);
     }
 }
 class Circle extends Shape
@@ -31,7 +31,7 @@ class Circle extends Shape
     public void print_area()
     {
         area_cir= (int) (3.14*a*a);
-        System.out.println("The Area of Circle is:"+area_cir);
+        System.out.println("The Area Of Circle Is:"+area_cir);
     }
 }
 class Demo
